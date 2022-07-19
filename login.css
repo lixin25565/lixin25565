@@ -4,6 +4,10 @@ body {
     background-repeat: no-repeat;
 }
 
+.text_114 {
+    font-size: 80px;
+    font-family: 宋体;
+}
 #login_frame {
     width: 400px;
     height: 300px;
