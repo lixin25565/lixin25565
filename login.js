@@ -1,6 +1,6 @@
 let accountAll = [{ // 存储账户json数据的数组
 	username: 'Admin',
-	passwd: 32768
+	passwd: '32768'
 	},
 	{
 	username: 'visitor',
