@@ -1,14 +1,10 @@
 let accountAll = [{ // 存储账户json数据的数组
-	username: 123,
-	passwd: 'qwe'
+	username: 'Admin',
+	passwd: 32768
 	},
 	{
-	username: 456,
-	passwd: 'asd'
-	},
-	{
-	username: 789,
-	passwd: 'zxc'
+	username: 'visitor',
+	passwd: ''
 	}
 	]
 function login() { //登陆判断
