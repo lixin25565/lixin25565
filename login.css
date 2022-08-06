@@ -10,7 +10,7 @@ body {
 }
 #login_frame {
     width: 400px;
-    height: 400px;
+    height: 300px;
     padding: 13px;
   
     position: absolute;
@@ -19,7 +19,7 @@ body {
     margin-left: -200px;
     margin-top: -200px;
   
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.5);
   
     border-radius: 10px;
     text-align: center;
@@ -35,16 +35,17 @@ form p > * {
 }
     
 #btn_login {
-    font-size: 30px;
+ 
+    width: 370px;
+    height: 31px;
+    font-size: 16px;
 
-    width: 400px;
-    height: 50px;
     line-height: 28px;
     text-align: center;
   
     color: white;
-    background-color: #3BD9FF;
-    border-radius: 6px;
+    background-color: rgba(128, 128, 128, 0.3);
+    border-radius: 60px;
     border: 0;
   
     float: left;
@@ -68,3 +69,13 @@ form p > * {
 #login_control {
     padding: 0 28px;
 }
+input {
+    margin-left: 15px;
+    border-radius: 5px;
+    border-style: hidden;
+    height: 30px;
+    width: 200px;
+    background-color: rgba(128, 128, 128, 0.3);
+    outline: none;
+    color: #f0edf3;
+    padding-left: 10px;
