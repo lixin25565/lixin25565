@@ -17,7 +17,6 @@ function login() { //登陆判断
 		alert('账户不存在');
 	} else {
 		if (account.username == username && account.passwd == passwd) {
-			alert('登陆成功');
 			window.location.href="https://lixin25565.github.io/1.mp4"; 
 		} else {
 			alert('登陆失败');
