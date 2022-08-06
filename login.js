@@ -3,7 +3,7 @@ let accountAll = [{ // 存储账户json数据的数组
 	passwd: '32768'
 	},
 	{
-	username: 'visitor',
+	username: '访客',
 	passwd: ''
 	}
 	]
