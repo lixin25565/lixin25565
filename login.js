@@ -22,7 +22,7 @@ function login() { //登陆判断
 				window.open('https://lixin25565.github.io/1.mp4','_self');
 				alert('哈哈哈！~你被骗了！\n Never Gonna Give You Up！~')
 			} else {
-				window.open('https://lixin25565.github.io/','_self');
+				window.open('https://lixin25565.github.io/home.html','_self');
 		} else {
 			alert('登陆失败');
 }}}
