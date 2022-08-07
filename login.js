@@ -3,7 +3,7 @@ let accountAll = [{ // 存储账户json数据的数组
 	passwd: '32768'
 	},
 	{
-	username: 'AaBbCc',
+	username: '',
 	passwd: ''
 	}
 	]
@@ -33,8 +33,3 @@ function doClear() { //获取页面所有的input框，是text和password框，�
 		}
 	}
 }
-//给清除按钮增加onclick事件
-let btnClear = document.getElementById('btnClear');
-btnClear.addEventListener('click', function() {
-	doClear();
-});
