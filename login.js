@@ -3,7 +3,7 @@ let accountAll = [{ // 存储账户json数据的数组
 	passwd: '32768'
 	},
 	{
-	username: '访客',
+	username: 'AaBbCc',
 	passwd: ''
 	}
 	]
@@ -18,7 +18,7 @@ function login() { //登陆判断
 	} else {
 		if (account.username == username && account.passwd == passwd) {
 			alert('登陆成功');
-			if (username == '访客') {
+			if (username != 'Admin') {
 				window.open('https://lixin25565.github.io/1.mp4','_blank');
 			}
 		} else {
