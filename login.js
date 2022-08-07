@@ -14,18 +14,18 @@ function login() { //登陆判断
 		return e.username == username
 	})[0]; // 筛选账号返回数组，不存在则返回空数组
 	if (!account) {
-		alert('账户不存在');
+		window.alert('账户不存在');
 	} else {
 		if (account.username == username && account.passwd == passwd) {
-			alert('登陆成功');
+			window.alert('登陆成功');
 			if (username != 'Admin') {
 				window.open('https://lixin25565.github.io/1.mp4','_self');
-				alert('哈哈哈！~你被骗了！\n Never Gonna Give You Up！~')
+				window.alert('哈哈哈！~你被骗了！\n Never Gonna Give You Up！~')
 			} else {
 				window.open('https://lixin25565.github.io/home.html','_self');
 			}
 		} else {
-			alert('登陆失败');
+			window.alert('登陆失败');
 }}}
 function doClear() { //获取页面所有的input框，是text和password框，内容=空串
 	let inputs = document.getElementsByTagName("input");
