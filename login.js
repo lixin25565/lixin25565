@@ -18,6 +18,9 @@ function login() { //登陆判断
 	} else {
 		if (account.username == username && account.passwd == passwd) {
 			alert('登陆成功');
+			if (username == '访客') {
+				window.open('https://lixin25565.github.io/1.mp4','_blank');
+			}
 		} else {
 			alert('登陆失败');
 }}}
