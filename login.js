@@ -19,9 +19,10 @@ function login() { //登陆判断
 		if (account.username == username && account.passwd == passwd) {
 			alert('登陆成功');
 			if (username != 'Admin') {
-				window.open('https://lixin25565.github.io/1.mp4','_blank');
+				window.open('https://lixin25565.github.io/1.mp4','_self');
 				alert('哈哈哈！~你被骗了！\n Never Gonna Give You Up！~')
-			}
+			} else {
+				window.open('https://lixin25565.github.io/','_self');
 		} else {
 			alert('登陆失败');
 }}}
