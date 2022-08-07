@@ -20,7 +20,7 @@ function login() { //登陆判断
 			alert('登陆成功');
 			if (username != 'Admin') {
 				window.open('https://lixin25565.github.io/1.mp4','_blank');
-				alert('哈哈哈！~你被骗了！\n Rick Astley - Never Gonna Give You Up')
+				alert('哈哈哈！~你被骗了！\n Never Gonna Give You Up！~')
 			}
 		} else {
 			alert('登陆失败');
