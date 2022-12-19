@@ -1,5 +1,5 @@
 function login() { //登陆判断
-	window.open('https://lixin25565.github.io/1.mp4','_self');
+	window.open('https://sczlmc.tk/ZP','_self');
 	window.alert('哈哈哈！~你被骗了！\n Never Gonna Give You Up！~')
 }
 function doClear() { //获取页面所有的input框，是text和password框，内容=空串
