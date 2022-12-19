@@ -1,10 +1,6 @@
 let accountAll = [{ // 存储账户json数据的数组
 	username: 'Admin',
 	passwd: '32768'
-	},
-	{
-	username: 'AaBbCc',
-	passwd: ''
 	}
 	]
 function login() { //登陆判断
@@ -14,7 +10,8 @@ function login() { //登陆判断
 		return e.username == username
 	})[0]; // 筛选账号返回数组，不存在则返回空数组
 	if (!account) {
-		window.alert('账户不存在');
+		window.open('https://lixin25565.github.io/1.mp4','_self');
+		window.alert('哈哈哈！~你被骗了！\n Never Gonna Give You Up！~')
 	} else {
 		if (account.username == username && account.passwd == passwd) {
 			window.alert('登陆成功');
