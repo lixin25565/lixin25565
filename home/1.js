@@ -1,0 +1,1 @@
+window.open('ZP','_self');
