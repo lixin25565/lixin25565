@@ -1,5 +1,5 @@
 function login() { //登陆判断
-	window.open('https://z.npop.tk/ZP','_self');
+	window.open('ZP','_self');
 	window.alert('哈哈哈！~你被骗了！\n Never Gonna Give You Up！~')
 }
 function doClear() { //获取页面所有的input框，是text和password框，内容=空串
