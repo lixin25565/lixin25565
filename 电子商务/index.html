@@ -1,7 +1,7 @@
 <!DOCTYPE HTML> 
 <html> 
 <body> 
-<canvas id="myCanvas" width="400" height="400" style="border:1px solid #c3c3c3;"></canvas> 
+<canvas id="myCanvas" width="1200" height="1200" style="border:1px solid #c3c3c3;"></canvas> 
 <script type="text/javascript"> 
 var c=document.getElementById("myCanvas"); 
 var time = 160 ; //蛇的速度 
@@ -20,7 +20,7 @@ case 2:x = x+size;break;
 case 0:x = x-size;break; 
 case 3:y = y+size;break; 
 } 
-if(x>400 || y>400 || x<0 || y<0){ 
+if(x>1200 || y>1200 || x<0 || y<0){ 
 alert("你挂了，继续努力吧!失败原因：碰壁了.....");window.location.reload(); 
 } 
 for(var i=0;i<map.length;i++){ 
